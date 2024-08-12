@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    width: 280px;
+    border-radius: 25px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: small;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 115px;
+    height: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+    padding: 20px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #weatherInfo p {
+    margin: 10px 0;
+  }
+  
